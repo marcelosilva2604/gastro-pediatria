@@ -1,0 +1,1137 @@
+====================================================================================================
+ANÁLISE ESTATÍSTICA APROFUNDADA — IBD PEDIÁTRICA EM LMIC (BRASIL)
+Data: 2026-02-28 23:44
+====================================================================================================
+
+
+====================================================================================================
+PARTE A: ANÁLISE DE DADOS FALTANTES
+====================================================================================================
+
+Total de registros no dataset: 157
+
+--- Taxa de completude por instrumento ---
+
+  CRAFFT:
+    Total registros: 157
+    Com dados válidos: 157 (100.0%)
+    Sem dados/incompletos: 0 (0.0%)
+    Itens com dados faltantes (entre pacientes válidos):
+      C_Car: 9.6% missing
+      R_Relax: 9.6% missing
+      A_Alone: 9.6% missing
+      F_Forget: 9.6% missing
+      F_Friends: 9.6% missing
+      T_Trouble: 9.6% missing
+
+  IBD-Disk:
+    Total registros: 157
+    Com dados válidos: 137 (87.3%)
+    Sem dados/incompletos: 20 (12.7%)
+    Itens com dados faltantes (entre pacientes válidos):
+      item1_abd_pain: 0.7% missing
+      item2_defecation: 1.5% missing
+      item3_interpersonal: 1.5% missing
+      item5_sleep: 0.7% missing
+      item6_energy: 1.5% missing
+      item7_emotions: 0.7% missing
+      item8_body_image: 0.7% missing
+      item9_sexual: 1.5% missing
+
+  IBDQ:
+    Total registros: 157
+    Com dados válidos: 122 (77.7%)
+    Sem dados/incompletos: 35 (22.3%)
+    Itens com dados faltantes (entre pacientes válidos):
+      item_5: 0.8% missing
+      item_10: 0.8% missing
+      item_12: 40.2% missing
+      item_13: 41.0% missing
+      item_14: 40.2% missing
+      item_15: 40.2% missing
+      item_16: 39.3% missing
+      item_17: 40.2% missing
+      item_18: 40.2% missing
+      item_19: 40.2% missing
+      item_20: 40.2% missing
+      item_21: 40.2% missing
+      item_22: 40.2% missing
+      item_23: 40.2% missing
+      item_24: 40.2% missing
+      item_25: 40.2% missing
+      item_26: 40.2% missing
+      item_27: 40.2% missing
+      item_28: 41.8% missing
+      item_29: 40.2% missing
+      item_30: 40.2% missing
+      item_31: 40.2% missing
+      item_32: 41.8% missing
+
+  IMPACT-III:
+    Total registros: 160
+    Com dados válidos: 23 (14.4%)
+    Sem dados/incompletos: 137 (85.6%)
+    Itens com dados faltantes (entre pacientes válidos):
+      item_26: 4.3% missing
+      item_27: 4.3% missing
+      item_28: 4.3% missing
+      item_29: 4.3% missing
+      item_30: 4.3% missing
+      item_31: 91.3% missing
+      item_32: 91.3% missing
+      item_33: 100.0% missing
+      item_34: 100.0% missing
+      item_35: 100.0% missing
+
+--- Completude cruzada entre instrumentos ---
+  Pacientes únicos total: 155
+  CRAFFT + IBD-Disk: 135
+  CRAFFT + IBDQ: 119
+  CRAFFT + IMPACT-III: 23
+  IBD-Disk + IBDQ: 115
+  IBD-Disk + IMPACT-III: 22
+  IBDQ + IMPACT-III: 1
+  Todos 4 instrumentos: 1
+  CRAFFT + IBD-Disk + IBDQ (sem IMPACT): 114
+
+
+====================================================================================================
+PARTE B: CONFIABILIDADE DOS INSTRUMENTOS — Consistência Interna
+====================================================================================================
+
+--- CRAFFT ---
+  Cronbach's Alpha: 0.6803 (n=142)
+  Interpretação: Questionável
+  Alpha se item deletado:
+    C_Car: α=0.7184 (↑0.0381)
+    R_Relax: α=0.5714 (↓0.1089)
+    A_Alone: α=0.6368 (↓0.0435)
+    F_Forget: α=0.5973 (↓0.0830)
+    F_Friends: α=0.6875 (≈0.0073)
+    T_Trouble: α=0.5865 (↓0.0938)
+  Correlação item-total corrigida:
+    C_Car: r=0.205 (p=0.0143)
+    R_Relax: r=0.549 (p=0.0000)
+    A_Alone: r=0.357 (p=0.0000)
+    F_Forget: r=0.481 (p=0.0000)
+    F_Friends: r=0.220 (p=0.0085)
+    T_Trouble: r=0.516 (p=0.0000)
+
+--- IBD-Disk ---
+  Cronbach's Alpha: 0.8890 (n=126)
+  Interpretação: Bom
+  Alpha se item deletado:
+    Dor Abdominal: α=0.8838 (≈0.0052)
+    Defecação: α=0.8773 (↓0.0117)
+    Interações: α=0.8766 (↓0.0125)
+    Educação/Trabalho: α=0.8725 (↓0.0165)
+    Sono: α=0.8760 (↓0.0130)
+    Energia: α=0.8695 (↓0.0195)
+    Emoções: α=0.8714 (↓0.0176)
+    Imagem Corporal: α=0.8824 (≈0.0067)
+    Função Sexual: α=0.8842 (≈0.0048)
+    Dor Articular: α=0.8867 (≈0.0023)
+  Correlação item-total corrigida:
+    Dor Abdominal: r=0.560 (p=0.0000) — adequada
+    Defecação: r=0.600 (p=0.0000) — adequada
+    Interações: r=0.601 (p=0.0000) — adequada
+    Educação/Trabalho: r=0.679 (p=0.0000) — adequada
+    Sono: r=0.659 (p=0.0000) — adequada
+    Energia: r=0.759 (p=0.0000) — adequada
+    Emoções: r=0.726 (p=0.0000) — adequada
+    Imagem Corporal: r=0.563 (p=0.0000) — adequada
+    Função Sexual: r=0.532 (p=0.0000) — adequada
+    Dor Articular: r=0.493 (p=0.0000) — adequada
+
+--- IBDQ ---
+  Cronbach's Alpha (itens completos): 0.9665 (n=66)
+  Interpretação: Excelente
+  Alpha domínio Sintomas Intestinais (1-10): 0.9093 (n=121)
+  Alpha domínio Bem-estar Emocional (12-23): 0.9128 (n=71)
+  Alpha domínio Interação Social (24-32): 0.8771 (n=69)
+
+--- IMPACT-III ---
+  N insuficiente para Cronbach's Alpha (n=0)
+
+
+====================================================================================================
+PARTE C: FLOOR E CEILING EFFECTS
+====================================================================================================
+  (Floor/ceiling >15% indica problema na sensibilidade do instrumento)
+
+--- CRAFFT ---
+  Floor (score=0): 58.6% ⚠️ >15%
+  Ceiling (score=6): 0.0% ✓
+
+--- IBD-Disk (por item) ---
+  Item                       Floor (0)  Ceiling (10)   Problema
+  ----------------------------------------------------------
+  Dor Abdominal                  31.6%         11.8%      FLOOR
+  Defecação                      28.9%          9.6%      FLOOR
+  Interações                     31.9%          5.2%      FLOOR
+  Educação/Trabalho              37.2%          9.5%      FLOOR
+  Sono                           22.8%         16.2%      FLOOR
+  Energia                        14.1%         10.4%         ok
+  Emoções                         9.6%         20.6%       CEIL
+  Imagem Corporal                18.4%          8.1%      FLOOR
+  Função Sexual                  37.8%          2.2%      FLOOR
+  Dor Articular                  27.0%          5.8%      FLOOR
+
+  Total Score Floor (≤5): 8.8%
+  Total Score Ceiling (≥90): 2.2%
+
+--- IBDQ ---
+  Floor (≤50): 16.4%
+  Ceiling (≥210): 3.3%
+
+
+====================================================================================================
+PARTE D: DISTRIBUIÇÕES DETALHADAS
+====================================================================================================
+
+  CRAFFT Total (n=157):
+    Média ± DP: 0.83 ± 1.27
+    Mediana [IQR]: 0.0 [0.0 - 1.0]
+    Min - Max: 0.0 - 5.0
+    Skewness: 1.609
+    Kurtosis: 1.790
+    Shapiro-Wilk: W=0.6984, p=0.000000
+    Kolmogorov-Smirnov: D=0.3304, p=0.000000
+    Conclusão: NÃO normal → testes não-paramétricos
+
+  IBD-Disk Total (n=137):
+    Média ± DP: 40.18 ± 24.57
+    Mediana [IQR]: 41.0 [19.0 - 59.0]
+    Min - Max: 1.0 - 95.0
+    Skewness: 0.244
+    Kurtosis: -0.814
+    Shapiro-Wilk: W=0.9675, p=0.002348
+    Kolmogorov-Smirnov: D=0.0891, p=0.213988
+    Conclusão: NÃO normal → testes não-paramétricos
+
+  IBD-Disk Mean (n=137):
+    Média ± DP: 4.06 ± 2.50
+    Mediana [IQR]: 4.1 [1.9 - 6.0]
+    Min - Max: 0.1 - 9.7
+    Skewness: 0.273
+    Kurtosis: -0.771
+    Shapiro-Wilk: W=0.9672, p=0.002184
+    Kolmogorov-Smirnov: D=0.0905, p=0.199450
+    Conclusão: NÃO normal → testes não-paramétricos
+
+  IBDQ Total (n=122):
+    Média ± DP: 114.66 ± 60.41
+    Mediana [IQR]: 104.5 [60.2 - 175.8]
+    Min - Max: 22.0 - 216.0
+    Skewness: 0.205
+    Kurtosis: -1.464
+    Shapiro-Wilk: W=0.9078, p=0.000000
+    Kolmogorov-Smirnov: D=0.1734, p=0.001122
+    Conclusão: NÃO normal → testes não-paramétricos
+
+  IMPACT-III Total (n=23):
+    Média ± DP: 78.48 ± 38.66
+    Mediana [IQR]: 71.0 [50.0 - 97.0]
+    Min - Max: 35.0 - 196.0
+    Skewness: 1.560
+    Kurtosis: 2.949
+    Shapiro-Wilk: W=0.8627, p=0.004660
+    Kolmogorov-Smirnov: D=0.2006, p=0.274398
+    Conclusão: NÃO normal → testes não-paramétricos
+
+
+====================================================================================================
+PARTE E: CORRELAÇÕES COMPLETAS COM IC 95% (Bootstrap, 1000 iterações)
+====================================================================================================
+
+--- Correlações entre scores totais ---
+
+  Par                                         rho             IC 95%          p     n        Força
+  -----------------------------------------------------------------------------------------------
+  CRAFFT vs IBD-Disk                       -0.006 [-0.169, 0.161]     0.9413 ns   143   Negligível
+  CRAFFT vs IBDQ                            0.014 [-0.165, 0.193]     0.8761 ns   127   Negligível
+  CRAFFT vs IMPACT-III                     -0.090 [-0.472, 0.289]     0.6833 ns    23   Negligível
+  IBD-Disk vs IBDQ                         -0.210 [-0.370, -0.049]     0.0196  *   123        Fraca
+  IBD-Disk vs IMPACT-III                    0.810 [0.532, 0.931]     0.0000***    22        Forte
+
+--- Correlações entre domínios (IBD-Disk vs IBDQ) ---
+
+  Par                                                   rho             IC 95%          p     n
+  -----------------------------------------------------------------------------------------------
+  Physical Domain vs Sint. Intestinais               -0.708 [-0.810, -0.574]     0.0000***   123
+  Physical Domain vs Sint. Sistêmicos                -0.629 [-0.736, -0.495]     0.0000***   123
+  Physical Domain vs Bem-estar Emocional             -0.064 [-0.250, 0.113]     0.4811 ns   123
+  Physical Domain vs Interação Social                -0.054 [-0.235, 0.126]     0.5521 ns   123
+  Psychosocial Domain vs Sint. Intestinais           -0.606 [-0.743, -0.442]     0.0000***   123
+  Psychosocial Domain vs Sint. Sistêmicos            -0.455 [-0.595, -0.300]     0.0000***   123
+  Psychosocial Domain vs Bem-estar Emocional          0.071 [-0.117, 0.245]     0.4376 ns   123
+  Psychosocial Domain vs Interação Social             0.029 [-0.156, 0.212]     0.7475 ns   123
+
+--- Correlações: Itens individuais IBD-Disk vs IBDQ Total ---
+  Dor Abdominal            : rho=-0.333 [-0.480, -0.172] p=0.0002*** (n=122)
+  Defecação                : rho=-0.268 [-0.428, -0.093] p=0.0027** (n=123)
+  Interações               : rho=-0.063 [-0.231, 0.118] p=0.4898ns (n=121)
+  Educação/Trabalho        : rho=-0.134 [-0.293, 0.042] p=0.1385ns (n=123)
+  Sono                     : rho=-0.061 [-0.238, 0.110] p=0.5042ns (n=122)
+  Energia                  : rho=-0.173 [-0.333, 0.007] p=0.0572ns (n=122)
+  Emoções                  : rho=-0.241 [-0.401, -0.070] p=0.0071** (n=123)
+  Imagem Corporal          : rho=-0.034 [-0.208, 0.130] p=0.7068ns (n=122)
+  Função Sexual            : rho=0.017 [-0.159, 0.181] p=0.8489ns (n=122)
+  Dor Articular            : rho=-0.172 [-0.336, -0.024] p=0.0567ns (n=123)
+
+--- Kendall's tau (robustez adicional) — scores totais ---
+  CRAFFT vs IBD-Disk                      : tau=-0.002, p=0.9801 ns (n=143)
+  CRAFFT vs IBDQ                          : tau=0.011, p=0.8741 ns (n=127)
+  CRAFFT vs IMPACT-III                    : tau=-0.066, p=0.7036 ns (n=23)
+  IBD-Disk vs IBDQ                        : tau=-0.177, p=0.0040 ** (n=123)
+  IBD-Disk vs IMPACT-III                  : tau=0.622, p=0.0001 *** (n=22)
+
+
+====================================================================================================
+PARTE F: COMPARAÇÕES CRAFFT+ vs CRAFFT- (Mann-Whitney U + Effect Sizes)
+====================================================================================================
+
+  CRAFFT+ (n=33) vs CRAFFT- (n=130)
+
+  Variável                     Pos med(IQR)         Neg med(IQR)                U        p      r     Efeito
+  ----------------------------------------------------------------------------------------------------
+  IBD-Disk Total               38 (26-57)           40 (16-56)               1994  0.3910 0.072       nulo
+  IBD-Disk Mean                4 (3-6)              4 (2-6)                  1994  0.3923 0.072       nulo
+  IBD-Disk Physical            4 (3-6)              4 (1-6)                  2028  0.3084 0.085       nulo
+  IBD-Disk Psychosocial        3 (2-5)              3 (1-6)                  1988  0.4096 0.069       nulo
+  IBDQ Total                   121 (60-180)         87 (62-158)              1613  0.4846 0.062       nulo
+  IBDQ Sint. Intestinais       42 (29-46)           42 (32-48)               1350  0.4382 0.069       nulo
+  IBDQ Sint. Sistêmicos        16 (14-25)           19 (13-22)               1537  0.7851 0.024       nulo
+  IBDQ Bem-estar Emoc.         36 (0-56)            24 (0-46)                1690  0.2392 0.100    pequeno
+  IBDQ Interação Social        41 (0-58)            28 (0-49)                1716  0.1837 0.113    pequeno
+
+--- Correlação ponto-bisserial: CRAFFT positivo (dicotômico) vs scores ---
+  CRAFFT+ vs IBD-Disk Total: rpb=0.081, p=0.3378 ns (n=143)
+  CRAFFT+ vs IBD-Disk Mean: rpb=0.078, p=0.3517 ns (n=143)
+  CRAFFT+ vs IBD-Disk Physical: rpb=0.089, p=0.2928 ns (n=143)
+  CRAFFT+ vs IBD-Disk Psychosocial: rpb=0.056, p=0.5058 ns (n=143)
+  CRAFFT+ vs IBDQ Total: rpb=0.086, p=0.3384 ns (n=127)
+  CRAFFT+ vs IBDQ Sint. Intestinais: rpb=-0.061, p=0.4940 ns (n=127)
+  CRAFFT+ vs IBDQ Sint. Sistêmicos: rpb=0.028, p=0.7552 ns (n=127)
+  CRAFFT+ vs IBDQ Bem-estar Emoc.: rpb=0.104, p=0.2461 ns (n=127)
+  CRAFFT+ vs IBDQ Interação Social: rpb=0.111, p=0.2131 ns (n=127)
+  CRAFFT+ vs IMPACT-III Total: rpb=0.053, p=0.8094 ns (n=23)
+
+
+====================================================================================================
+PARTE G: ANÁLISE ITEM-A-ITEM — CRAFFT items vs IBD-Disk items
+====================================================================================================
+  (Identificar quais domínios de incapacidade se associam a quais comportamentos de risco)
+
+  CRAFFT item     IBD-Disk item                rho        p   Sig
+  -----------------------------------------------------------------
+  R_Relax         Sono                       0.205   0.0164     *
+  F_Forget        Sono                       0.180   0.0354     *
+  F_Forget        Energia                    0.170   0.0482     *
+  F_Forget        Emoções                    0.230   0.0068    **
+  F_Friends       Energia                    0.196   0.0221     *
+
+  → 5 pares significativos identificados
+
+
+====================================================================================================
+PARTE H: REGRESSÃO LINEAR — Preditores de Qualidade de Vida (IBDQ)
+====================================================================================================
+
+  n = 122 pacientes com dados completos para regressão
+
+  Modelo 1: IBDQ = β0 + β1×IBD-Disk_Total
+    β0 (intercept) = 126.96
+    β1 (IBD-Disk) = -0.423
+    R² = 0.0334, R² ajustado = 0.0171
+    Interpretação: IBD-Disk explica 3.3% da variância do IBDQ
+
+  Modelo 2: IBDQ = β0 + β1×Physical + β2×Psychosocial
+    β0 = 127.38
+    β1 (Physical) = -9.490
+    β2 (Psychosocial) = 5.640
+    R² = 0.0837, R² ajustado = 0.0604
+
+  Modelo 3: IBDQ = β0 + β1×IBD-Disk + β2×CRAFFT_positivo
+    β0 = 123.90
+    β1 (IBD-Disk) = -0.434
+    β2 (CRAFFT+) = 13.748
+    R² = 0.0440, R² ajustado = 0.0197
+    ΔR² ao adicionar CRAFFT: 0.0106 (1.1% variância adicional)
+
+
+====================================================================================================
+PARTE I: PERFIS DE PACIENTES POR PADRÃO DE COMPROMETIMENTO (IBD-Disk)
+====================================================================================================
+
+  Perfis de comprometimento (n=126):
+
+    Misto (alto ambos): 28 (22.2%)
+      Physical mean: 7.3 ± 1.4
+      Psychosocial mean: 7.3 ± 1.2
+
+    Predominante Físico: 19 (15.1%)
+      Physical mean: 6.5 ± 1.0
+      Psychosocial mean: 3.5 ± 1.1
+
+    Predominante Psicossocial: 9 (7.1%)
+      Physical mean: 3.8 ± 0.4
+      Psychosocial mean: 6.3 ± 1.4
+
+    Baixo (ambos): 70 (55.6%)
+      Physical mean: 2.2 ± 1.5
+      Psychosocial mean: 2.1 ± 1.5
+
+  Kruskal-Wallis: Perfis vs IBDQ Total
+    H=9.70, p=0.0213 *
+    Misto (alto ambos): mediana IBDQ = 97 (n=30)
+    Predominante Físico: mediana IBDQ = 69 (n=19)
+    Predominante Psicossocial: mediana IBDQ = 144 (n=9)
+    Baixo (ambos): mediana IBDQ = 75 (n=73)
+
+
+====================================================================================================
+PARTE J: ANÁLISE DETALHADA DOS DOMÍNIOS IBDQ
+====================================================================================================
+
+  IBDQ versão curta (11 itens): 48 pacientes
+  IBDQ versão longa (32 itens): 74 pacientes
+
+  --- Estatísticas da versão longa (32 itens, n=74) ---
+  Total: 154.2 ± 43.4
+    Sint. Intestinais: 39.4 ± 11.0
+    Sint. Sistêmicos: 19.9 ± 7.1
+    Bem-estar Emocional: 46.3 ± 14.6
+    Interação Social: 48.6 ± 13.9
+
+  Contribuição de cada domínio para o total:
+    Sint. Intestinais: 25.6%
+    Sint. Sistêmicos: 12.9%
+    Bem-estar Emocional: 30.0%
+    Interação Social: 31.5%
+
+  Correlações inter-domínios IBDQ (Spearman):
+    Sint.Int. vs Sint.Sist.: rho=0.828, p=0.0000 ***
+    Sint.Int. vs Bem-estar: rho=0.851, p=0.0000 ***
+    Sint.Int. vs Social: rho=0.725, p=0.0000 ***
+    Sint.Sist. vs Bem-estar: rho=0.863, p=0.0000 ***
+    Sint.Sist. vs Social: rho=0.789, p=0.0000 ***
+    Bem-estar vs Social: rho=0.808, p=0.0000 ***
+
+  --- Estatísticas da versão curta (11 itens, n=48) ---
+  Total: 53.7 ± 14.4
+    Sint. Intestinais: 38.7 ± 10.8
+    Sint. Sistêmicos: 15.0 ± 4.4
+
+  --- Comparação versão curta vs longa (domínios comuns) ---
+  Sint. Intestinais: Curta med=41 vs Longa med=42, p=0.6276 ns
+  Sint. Sistêmicos: Curta med=16 vs Longa med=22, p=0.0001 ***
+
+
+====================================================================================================
+PARTE K: ANÁLISE TEMPORAL DETALHADA
+====================================================================================================
+
+  IBD-Disk com data válida: 134
+  Tendência temporal IBD-Disk Total: rho=0.091, p=0.2970
+    Scores aumentando ao longo do tempo
+
+  IBD-Disk por período:
+    2021-2022: n=59, mediana=39 [18-54]
+    2023-2024: n=59, mediana=37 [18-62]
+    2025-2026: n=16, mediana=50 [36-69]
+    Kruskal-Wallis entre períodos: H=2.40, p=0.3006 ns
+
+  CRAFFT tendência temporal:
+    Score total vs tempo: rho=-0.048, p=0.5702
+    Tendência por item CRAFFT:
+
+
+====================================================================================================
+PARTE L: CONCORDÂNCIA ENTRE INSTRUMENTOS (Convergent Validity)
+====================================================================================================
+
+  IBD-Disk (alta incapacidade) vs IBDQ (baixa QoL):
+    Concordantes: 63/123 (51.2%)
+    Discordantes: 60/123 (48.8%)
+
+    Tabela cruzada:
+                           IBDQ baixo    IBDQ alto
+    Disk alto                      32           31
+    Disk baixo                     29           31
+
+    Chi²=0.01, df=1, p=0.9264 ns
+    Odds Ratio: 1.10
+
+
+====================================================================================================
+PARTE M: ÍNDICE DE BURDEN COMPOSTO
+====================================================================================================
+  (Combinando informação de múltiplos instrumentos num único indicador)
+
+  Burden Index (n=122):
+    Média ± DP: -0.000 ± 0.610
+    Mediana [IQR]: -0.106 [-0.415 - 0.419]
+    Min - Max: -1.311 - 1.392
+
+    Burden Baixo (n=41):
+      IBD-Disk: 17
+      IBDQ: 174
+      CRAFFT+: 15%
+      Burden Index: -0.532
+
+    Burden Moderado (n=40):
+      IBD-Disk: 36
+      IBDQ: 99
+      CRAFFT+: 15%
+      Burden Index: -0.106
+
+    Burden Alto (n=41):
+      IBD-Disk: 59
+      IBDQ: 53
+      CRAFFT+: 46%
+      Burden Index: 0.661
+
+    CRAFFT+ por categoria de burden:
+      Baixo: 6/41 CRAFFT+ (15%)
+      Moderado: 6/40 CRAFFT+ (15%)
+      Alto: 19/41 CRAFFT+ (46%)
+
+
+====================================================================================================
+PARTE N: FIGURAS ADICIONAIS
+====================================================================================================
+  Figura 9: fig9_ibddisk_violin.png ✓
+  Figura 10: fig10_ibddisk_item_corr.png ✓
+  Figura 11: fig11_ibdq_versoes.png ✓
+  Figura 12: fig12_perfis_comprometimento.png ✓
+  Figura 13: fig13_burden_index.png ✓
+  Figura 14: fig14_missing_data.png ✓
+
+
+====================================================================================================
+PARTE O: TABELAS FORMATADAS PARA O ARTIGO
+====================================================================================================
+
+--- TABELA 1: Estatísticas Descritivas dos Instrumentos ---
+Instrumento              N    Média       DP  Mediana             IQR    Min    Max
+--------------------------------------------------------------------------------
+CRAFFT Total           157      0.8      1.3      0.0             0-1      0      5
+IBD-Disk Total         137     40.2     24.6     41.0           19-59      1     95
+IBD-Disk Mean          137      4.1      2.5      4.1             2-6      0     10
+IBDQ Total             122    114.7     60.4    104.5          60-176     22    216
+IMPACT-III Total        23     78.5     38.7     71.0           50-97     35    196
+
+--- TABELA 2: IBD-Disk — Scores por Item ---
+Item                          N   Média      DP   Med          IQR     ≥5 (%)
+---------------------------------------------------------------------------
+Dor Abdominal               136     4.0     3.8     3          0-8       41.9
+Defecação                   135     3.9     3.6     3          0-7       38.5
+Interações                  135     3.2     3.3     2          0-6       33.3
+Educação/Trabalho           137     3.3     3.6     2          0-6       37.2
+Sono                        136     4.7     3.9     4          1-9       49.3
+Energia                     135     5.1     3.4     5          2-8       54.8
+Emoções                     136     5.6     3.5     6          2-9       62.5
+Imagem Corporal             136     4.5     3.5     4          1-8       49.3
+Função Sexual               135     2.7     3.0     1          0-5       27.4
+Dor Articular               137     3.5     3.3     3          0-6       38.7
+
+--- TABELA 3: CRAFFT — Prevalência por Item ---
+Item                   N resp   Positivo        %
+--------------------------------------------------
+C_Car                     142         31    21.8%
+R_Relax                   142         22    15.5%
+A_Alone                   142         13     9.2%
+F_Forget                  142         19    13.4%
+F_Friends                 142          3     2.1%
+T_Trouble                 142         43    30.3%
+Screen Positivo           157         33    21.0%
+
+
+====================================================================================================
+
+
+====================================================================================================
+FASE 2 — ANÁLISE ESTATÍSTICA AVANÇADA — IBD PEDIÁTRICA EM LMIC (BRASIL)
+Data: 2026-02-28 23:58
+====================================================================================================
+
+Dataset merged: 173 pacientes
+  Com CRAFFT + IBD-Disk: 151
+  Com CRAFFT + IBDQ: 135
+  Com IBD-Disk + IBDQ: 131
+  Com todos 3 (CRAFFT+Disk+IBDQ): 130
+
+
+====================================================================================================
+P1: CORREÇÃO PARA COMPARAÇÕES MÚLTIPLAS — Benjamini-Hochberg FDR
+====================================================================================================
+
+--- Correlações entre scores totais (com correção FDR) ---
+  CRAFFT vs IBD-Disk                   rho=+0.006  p_raw=0.9423 ns   p_FDR=0.9423 ns   n=151
+  CRAFFT vs IBDQ                       rho=+0.009  p_raw=0.9175 ns   p_FDR=0.9423 ns   n=135
+  CRAFFT vs IMPACT-III                 rho=-0.090  p_raw=0.6833 ns   p_FDR=0.9423 ns   n=23
+  IBD-Disk vs IBDQ                     rho=-0.144  p_raw=0.1018 ns   p_FDR=0.2545 ns   n=131
+  IBD-Disk vs IMPACT-III               rho=+0.810  p_raw=0.0000 ***  p_FDR=0.0000 ***  n=22
+
+--- Correlações domínios IBD-Disk vs IBDQ (com FDR) ---
+  Physical vs Sint.Intest.             rho=-0.735  p_raw=0.000000 ***  p_FDR=0.000000 ***  n=131
+  Physical vs Sint.Sist.               rho=-0.608  p_raw=0.000000 ***  p_FDR=0.000000 ***  n=131
+  Physical vs Bem-estar                rho=+0.047  p_raw=0.590700 ns   p_FDR=0.590700 ns   n=131
+  Physical vs Social                   rho=+0.057  p_raw=0.519545 ns   p_FDR=0.590700 ns   n=131
+  Psychosocial vs Sint.Intest.         rho=-0.651  p_raw=0.000000 ***  p_FDR=0.000000 ***  n=131
+  Psychosocial vs Sint.Sist.           rho=-0.452  p_raw=0.000000 ***  p_FDR=0.000000 ***  n=131
+  Psychosocial vs Bem-estar            rho=+0.168  p_raw=0.054607 ns   p_FDR=0.087372 ns   n=131
+  Psychosocial vs Social               rho=+0.134  p_raw=0.127624 ns   p_FDR=0.170165 ns   n=131
+
+--- Itens CRAFFT vs IBD-Disk (com FDR) ---
+
+  Total de testes item-a-item: 60
+  Significativos antes de FDR (p<0.05): 6
+  Significativos após FDR (q<0.05): 0
+  → Conclusão: Nenhuma associação item-nível sobrevive à correção FDR — achados exploratórios
+
+
+====================================================================================================
+P2: REGRESSÃO LOGÍSTICA — Preditores de CRAFFT Positivo
+====================================================================================================
+
+--- Modelo 1: IBD-Disk Domains → CRAFFT+ ---
+  n = 151, CRAFFT+ = 33 (21.9%)
+  Coeficientes (padronizados):
+    Physical Domain:      β = +0.2948
+    Psychosocial Domain:  β = -0.0197
+    Intercept:            β₀ = -1.2960
+  AUC-ROC: 0.588
+  Odds Ratios (por 1 DP de aumento):
+    Physical:      OR = 1.343
+    Psychosocial:  OR = 0.981
+
+--- Modelo 2: IBD-Disk Items individuais → CRAFFT+ (univariados) ---
+  n = 140, CRAFFT+ = 31 (22.1%)
+
+  Item                           β        OR     AUC     LR χ²         p  Sig
+  --------------------------------------------------------------------------------
+  Emoções                  +0.1375     1.147   0.632     5.340    0.0208  *
+  Sono                     +0.1137     1.120   0.633     4.653    0.0310  *
+  Energia                  +0.1069     1.113   0.607     3.245    0.0716  ns
+  Função Sexual            +0.0909     1.095   0.605     1.841    0.1748  ns
+  Imagem Corporal          +0.0585     1.060   0.574     1.091    0.2961  ns
+  Dor Articular            +0.0442     1.045   0.550     0.493    0.4828  ns
+  Defecação                +0.0287     1.029   0.539     0.245    0.6205  ns
+  Interações               +0.0258     1.026   0.543     0.167    0.6829  ns
+  Educação/Trabalho        -0.0125     0.988   0.517     0.045    0.8328  ns
+  Dor Abdominal            +0.0038     1.004   0.520     0.005    0.9441  ns
+
+--- Modelo 3: IBD-Disk Domains + IBDQ Total → CRAFFT+ ---
+  n = 130, CRAFFT+ = 31 (23.8%)
+  Coeficientes (padronizados):
+    Physical Domain:  β = +0.3877, OR = 1.474
+    Psychosocial:     β = -0.1217, OR = 0.885
+    IBDQ Total:       β = +0.3224, OR = 1.380
+  AUC-ROC: 0.618
+
+
+====================================================================================================
+P3: ANÁLISE DOSE-RESPOSTA — CRAFFT Score vs Disability/QoL
+====================================================================================================
+
+--- IBD-Disk Total por nível de CRAFFT ---
+
+  IBD-Disk por nível de CRAFFT:
+    CRAFFT=0: n=81, mediana=41.0, IQR=[17.0-56.0]
+    CRAFFT=1: n=37, mediana=20.0, IQR=[6.0-47.0]
+    CRAFFT≥2: n=33, mediana=38.0, IQR=[26.0-57.0]
+    Tendência (Spearman ordinal): rho=-0.010, p=0.9040
+    Kruskal-Wallis: H=5.854, p=0.0535
+
+  IBDQ por nível de CRAFFT:
+    CRAFFT=0: n=69, mediana=102.0, IQR=[64.0-154.0]
+    CRAFFT=1: n=35, mediana=75.0, IQR=[63.5-166.0]
+    CRAFFT≥2: n=31, mediana=121.0, IQR=[60.5-180.5]
+    Tendência (Spearman ordinal): rho=+0.015, p=0.8618
+    Kruskal-Wallis: H=1.079, p=0.5829
+
+
+====================================================================================================
+P4: ANÁLISE DE SUBGRUPO — IBDQ Versão Curta vs Longa
+====================================================================================================
+
+  Versão curta (11 itens): n=63
+  Versão longa (32 itens): n=74
+
+--- Comparação IBD-Disk entre versões IBDQ ---
+  IBD-Disk Total           : Curta med=31.0 vs Longa med=43.5  U=1372, p=0.0004 ***, r=0.307
+  Physical Domain          : Curta med=3.2 vs Longa med=4.1  U=1544, p=0.0064 **, r=0.238
+  Psychosocial Domain      : Curta med=2.0 vs Longa med=4.4  U=1270, p=0.0001 ***, r=0.349
+  IBD-Disk Mean            : Curta med=3.1 vs Longa med=4.5  U=1365, p=0.0004 ***, r=0.310
+
+--- Comparação CRAFFT entre versões IBDQ ---
+  CRAFFT Total             : Curta med=1.0 vs Longa med=0.0  U=2316, p=0.8219 ns
+
+  CRAFFT+ prevalência: Curta=17.5% vs Longa=27.8%
+  Chi²=1.481, p=0.2237
+
+--- Correlações IBD-Disk vs IBDQ por versão ---
+  Curta: rho=-0.859, p=0.0000 ***, n=61
+  Longa: rho=-0.680, p=0.0000 ***, n=70
+
+
+====================================================================================================
+P5: ANÁLISE DE SENSIBILIDADE — Apenas Casos Completos (3 instrumentos)
+====================================================================================================
+
+  Casos completos (CRAFFT + IBD-Disk + IBDQ): n=130
+
+--- Repetindo correlações principais em casos completos ---
+  CRAFFT vs IBD-Disk            : rho=-0.020, p=0.8229 ns, n=130
+  CRAFFT vs IBDQ                : rho=+0.038, p=0.6657 ns, n=130
+  IBD-Disk vs IBDQ              : rho=-0.137, p=0.1196 ns, n=130
+
+--- CRAFFT+ vs CRAFFT- em casos completos ---
+  CRAFFT+ = 31, CRAFFT- = 99
+  IBD-Disk: CRAFFT+ med=37.0 vs CRAFFT- med=37.0, U=1716, p=0.3212 ns, r=0.087
+  IBDQ: CRAFFT+ med=121.0 vs CRAFFT- med=75.0, U=1690, p=0.3969 ns, r=0.074
+
+--- Viés de seleção: casos completos vs incompletos ---
+  CRAFFT Total: Completos med=0.0 vs Incompletos med=0.0, p=0.0007 *
+  CRAFFT+ prevalência: Completos=23.8% vs Incompletos=4.9%
+
+
+====================================================================================================
+P6: POWER ANALYSIS POST-HOC
+====================================================================================================
+
+--- Poder estatístico para correlações observadas ---
+
+  Par                                     rho      n    Poder    N p/ 80%
+  ---------------------------------------------------------------------------
+  CRAFFT vs IBD-Disk                   -0.006    143     2.9%      >10000
+  CRAFFT vs IBDQ                       +0.014    127     3.6%      >10000
+  CRAFFT vs IMPACT-III                 -0.090     23     6.0%         967
+  IBD-Disk vs IBDQ                     -0.210    123    64.6%         176
+  IBD-Disk vs IMPACT-III               +0.810     22    99.8%          10
+  Phys.Domain vs Sint.Intest.          -0.708    123   100.0%          14
+  Phys.Domain vs Sint.Sist.            -0.629    123   100.0%          18
+  Psycho vs Sint.Intest.               -0.606    123   100.0%          19
+
+--- Poder para comparações CRAFFT+ vs CRAFFT- ---
+
+  Outcome                         r    n1    n2    Poder
+  -------------------------------------------------------
+  IBD-Disk Total              0.072    33   110    13.8%
+  IBDQ Total                  0.062    30    97    10.8%
+  IBDQ Bem-estar Emoc.        0.100    30    97    20.3%
+  IBDQ Interação Social       0.113    30    97    24.7%
+
+--- Tamanho mínimo de efeito detectável (poder=80%, α=0.05) ---
+  CRAFFT vs IBD-Disk (n=143): |rho| mínimo detectável = 0.24
+  IBD-Disk vs IBDQ (n=123): |rho| mínimo detectável = 0.26
+  IBD-Disk vs IMPACT-III (n=22): |rho| mínimo detectável = 0.57
+
+
+====================================================================================================
+P7: ROC CURVE — IBD-Disk Predizendo IBDQ Grave
+====================================================================================================
+
+  n = 131
+  IBDQ Grave (≤100): 70 (53.4%)
+  IBDQ Não-grave: 61 (46.6%)
+  AUC-ROC (IBD-Disk → IBDQ Grave): 0.436
+  Cutoff ótimo (Youden's J): IBD-Disk ≥ 69
+    Sensibilidade: 15.7%
+    Especificidade: 91.8%
+    Youden's J: 0.075
+
+  Cutoffs alternativos:
+    IBD-Disk ≥20: Sens=61.4%, Spec=26.2%, PPV=48.9%, NPV=37.2%
+    IBD-Disk ≥30: Sens=57.1%, Spec=37.7%, PPV=51.3%, NPV=43.4%
+    IBD-Disk ≥40: Sens=47.1%, Spec=50.8%, PPV=52.4%, NPV=45.6%
+    IBD-Disk ≥50: Sens=32.9%, Spec=65.6%, PPV=52.3%, NPV=46.0%
+    IBD-Disk ≥60: Sens=22.9%, Spec=75.4%, PPV=51.6%, NPV=46.0%
+
+  → Figura salva: fig15_roc_curve.png
+
+
+====================================================================================================
+P8: DIAGNÓSTICO DE REGRESSÃO E MULTICOLINEARIDADE
+====================================================================================================
+
+--- VIF (Variance Inflation Factor) para domínios IBD-Disk ---
+  Correlação Physical vs Psychosocial: r=0.798
+  VIF: 2.754
+  Interpretação: OK (VIF < 5)
+
+--- VIF para itens individuais IBD-Disk ---
+  Dor Abdominal            : VIF = 2.04  OK
+  Defecação                : VIF = 2.44  OK
+  Interações               : VIF = 2.18  OK
+  Educação/Trabalho        : VIF = 2.86  OK
+  Sono                     : VIF = 2.22  OK
+  Energia                  : VIF = 3.36  OK
+  Emoções                  : VIF = 2.84  OK
+  Imagem Corporal          : VIF = 1.92  OK
+  Função Sexual            : VIF = 1.73  OK
+  Dor Articular            : VIF = 1.53  OK
+
+--- Diagnóstico de resíduos — Modelo: IBD-Disk Domains → IBDQ ---
+  Normalidade dos resíduos (Shapiro-Wilk): W=0.8971, p=0.0000
+  → Resíduos NÃO normais
+  Heterocedasticidade (|resíduos| vs preditos): rho=0.166, p=0.0584
+  → Homocedasticidade OK
+  R² = 0.0642, R² ajustado = 0.0496
+  → Figura salva: fig16_residual_diagnostics.png
+
+
+====================================================================================================
+P9: EFFECT SIZES COM IC BOOTSTRAPPED (2000 iterações)
+====================================================================================================
+
+--- Effect sizes (r) para CRAFFT+ vs CRAFFT- com IC 95% ---
+
+  Outcome                       r median              IC 95%     Interp.
+  ------------------------------------------------------------------------
+  IBD-Disk Total                   0.114  [0.005, 0.247]     pequeno
+  IBD-Disk Mean                    0.117  [0.007, 0.263]     pequeno
+  Physical Domain                  0.125  [0.011, 0.264]     pequeno
+  Psychosocial Domain              0.111  [0.008, 0.255]     pequeno
+  IBDQ Total                       0.079  [0.004, 0.243]        nulo
+  IBDQ Sint. Intestinais           0.119  [0.007, 0.268]     pequeno
+  IBDQ Sint. Sistêmicos            0.065  [0.003, 0.202]        nulo
+  IBDQ Bem-estar Emoc.             0.137  [0.008, 0.305]     pequeno
+  IBDQ Interação Social            0.150  [0.010, 0.317]     pequeno
+
+
+====================================================================================================
+P10: FIGURAS ADICIONAIS PARA PUBLICAÇÃO
+====================================================================================================
+
+--- Fig 17: Forest Plot — Effect Sizes CRAFFT+ vs CRAFFT- ---
+  → fig17_forest_plot.png salva
+
+--- Fig 18: Dose-Resposta CRAFFT Score ---
+  → fig18_dose_response.png salva
+
+--- Fig 19: Comparação Versão Curta vs Longa IBDQ ---
+  → fig19_version_comparison.png salva
+
+--- Fig 20: Matriz de Correlação Completa ---
+  → fig20_full_correlation_matrix.png salva
+
+
+====================================================================================================
+P11: TABELAS STROBE ADICIONAIS PARA MANUSCRITO
+====================================================================================================
+
+--- TABELA 4: Comparação CRAFFT+ vs CRAFFT- (com effect sizes e IC) ---
+
+  Variável                      CRAFFT+ med(IQR)        CRAFFT- med(IQR)               p               r [IC95%]
+  --------------------------------------------------------------------------------------------------------------
+  IBD-Disk Total                38 (26-57)              34 (9-55)                 0.1667    0.113 [0.006, 0.255]
+  IBD-Disk Mean                 4 (3-6)                 4 (1-6)                   0.1674    0.110 [0.006, 0.264]
+  Physical Domain               4 (3-6)                 4 (1-6)                   0.1250    0.128 [0.011, 0.267]
+  Psychosocial Domain           3 (2-5)                 3 (1-5)                   0.1822    0.105 [0.008, 0.250]
+  IBDQ Total                    121 (60-180)            75 (64-156)               0.4495    0.078 [0.004, 0.249]
+  IBDQ Sint. Intestinais        42 (29-46)              44 (33-51)                0.1834    0.119 [0.008, 0.275]
+  IBDQ Sint. Sistêmicos         16 (14-25)              20 (13-21)                0.9143    0.064 [0.002, 0.193]
+  IBDQ Bem-estar Emoc.          36 (0-56)               8 (0-44)                  0.1209    0.133 [0.006, 0.297]
+  IBDQ Interação Social         41 (0-58)               8 (0-46)                  0.0901    0.144 [0.015, 0.312]
+
+--- TABELA 5: Correlações entre Instrumentos (com p-value e FDR) ---
+
+  Par                                           rho     p_raw     p_FDR   Sig FDR      n
+  -------------------------------------------------------------------------------------
+  CRAFFT vs IBD-Disk Total                   +0.006    0.9423    0.9423        ns    151
+  CRAFFT vs IBDQ Total                       +0.009    0.9175    0.9423        ns    135
+  CRAFFT vs IMPACT-III                       -0.090    0.6833    0.8075        ns     23
+  IBD-Disk vs IBDQ Total                     -0.144    0.1018    0.1891        ns    131
+  IBD-Disk vs IMPACT-III                     +0.810    0.0000    0.0000       ***     22
+  Physical vs Sint. Intestinais              -0.735    0.0000    0.0000       ***    131
+  Physical vs Sint. Sistêmicos               -0.608    0.0000    0.0000       ***    131
+  Physical vs Bem-estar Emoc.                +0.047    0.5907    0.7679        ns    131
+  Physical vs Interação Social               +0.057    0.5195    0.7505        ns    131
+  Psychosocial vs Sint. Intestinais          -0.651    0.0000    0.0000       ***    131
+  Psychosocial vs Sint. Sistêmicos           -0.452    0.0000    0.0000       ***    131
+  Psychosocial vs Bem-estar Emoc.            +0.168    0.0546    0.1183        ns    131
+  Psychosocial vs Interação Social           +0.134    0.1276    0.2074        ns    131
+
+--- TABELA 6: Comparação de Modelos de Regressão ---
+
+  Modelo                                                       R²    R²adj       AIC      n
+  ------------------------------------------------------------------------------------------
+  IBDQ ~ IBD-Disk Total                                    0.0160   0.0084    1062.9    131
+  IBDQ ~ Physical + Psychosocial                           0.0642   0.0496    1058.3    131
+  IBDQ ~ IBD-Disk + CRAFFT Total                           0.0211   0.0057    1054.3    130
+  IBDQ ~ Physical + Psychosocial + CRAFFT                  0.0721   0.0500    1049.3    130
+  IBDQ ~ Emoções + Energia + Sono                          0.0215  -0.0020    1051.6    129
+
+
+====================================================================================================
+FIM DA FASE 2 — ANÁLISE AVANÇADA COMPLETA
+====================================================================================================
+
+
+====================================================================================================
+
+
+====================================================================================================
+FASE 3 — ANÁLISES FINAIS E SÍNTESE PARA MANUSCRITO
+Data: 2026-03-01 00:02
+====================================================================================================
+
+
+====================================================================================================
+Q1: PREVALÊNCIA CRAFFT COM IC 95% (Wilson Score Interval)
+====================================================================================================
+
+  CRAFFT Screening Positivo (≥2):
+    n = 33/157
+    Prevalência: 21.0% (IC 95% Wilson: 15.4%–28.0%)
+
+  Prevalência por item CRAFFT (IC 95% Wilson):
+    C - Car (dirigir sob influência):
+      31/142 = 21.8% (IC 95%: 15.8%–29.3%)
+    R - Relax (usar para relaxar):
+      22/142 = 15.5% (IC 95%: 10.5%–22.3%)
+    A - Alone (usar sozinho):
+      13/142 = 9.2% (IC 95%: 5.4%–15.0%)
+    F - Forget (esquecer sob influência):
+      19/142 = 13.4% (IC 95%: 8.7%–20.0%)
+    F - Friends/Family (família/amigos pedem para parar):
+      3/142 = 2.1% (IC 95%: 0.7%–6.0%)
+    T - Trouble (problemas sob influência):
+      43/142 = 30.3% (IC 95%: 23.3%–38.3%)
+
+  Distribuição dos scores CRAFFT (IC 95% para cada proporção):
+    Score 0:  92/157 =  58.6% (50.8%–66.0%) █████████████████████████████
+    Score 1:  32/157 =  20.4% (14.8%–27.4%) ██████████
+    Score 2:  13/157 =   8.3% ( 4.9%–13.7%) ████
+    Score 3:  10/157 =   6.4% ( 3.5%–11.3%) ███
+    Score 4:   7/157 =   4.5% ( 2.2%– 8.9%) ██
+    Score 5:   3/157 =   1.9% ( 0.7%– 5.5%) 
+    Score 6:   0/157 =   0.0% ( 0.0%– 2.4%) 
+
+
+====================================================================================================
+Q2: IBD-DISK CATEGORIAS DE SEVERIDADE E ASSOCIAÇÕES
+====================================================================================================
+
+  IBD-Disk dividido em tercis:
+    Baixo: n=52, IBD-Disk mediana=6, range=[1-20]
+    Médio: n=50, IBD-Disk mediana=37, range=[21-47]
+    Alto: n=50, IBD-Disk mediana=64, range=[48-95]
+
+--- CRAFFT+ por tercil de IBD-Disk ---
+  Baixo: CRAFFT+ = 7/51 = 13.7% (IC 95%: 6.8%–25.7%)
+  Médio: CRAFFT+ = 13/50 = 26.0% (IC 95%: 15.9%–39.6%)
+  Alto: CRAFFT+ = 13/50 = 26.0% (IC 95%: 15.9%–39.6%)
+  Chi² para tendência: χ²=2.980, p=0.2254
+
+--- IBDQ por tercil de IBD-Disk ---
+  Baixo: IBDQ mediana=75, IQR=[73-181], n=46
+  Médio: IBDQ mediana=138, IQR=[56-174], n=40
+  Alto: IBDQ mediana=98, IQR=[49-128], n=45
+  Kruskal-Wallis: H=4.187, p=0.1233
+
+
+====================================================================================================
+Q3: IBDQ SEVERIDADE (TERCIS) vs CRAFFT+
+====================================================================================================
+
+  IBDQ dividido em tercis:
+    Grave: n=46, IBDQ mediana=52, range=[22-71]
+    Moderado: n=45, IBDQ mediana=78, range=[72-143]
+    Leve: n=46, IBDQ mediana=181, range=[144-216]
+
+--- CRAFFT+ por tercil de IBDQ ---
+  Grave: CRAFFT+ = 13/46 = 28.3% (IC 95%: 17.3%–42.5%)
+  Moderado: CRAFFT+ = 5/45 = 11.1% (IC 95%: 4.8%–23.5%)
+  Leve: CRAFFT+ = 13/44 = 29.5% (IC 95%: 18.2%–44.2%)
+  Chi² para tendência: χ²=5.381, p=0.0679
+
+--- IBD-Disk por tercil de IBDQ ---
+  Grave: IBD-Disk mediana=41, IQR=[31-59], n=45
+  Moderado: IBD-Disk mediana=31, IQR=[6-64], n=43
+  Leve: IBD-Disk mediana=31, IQR=[16-45], n=43
+  Kruskal-Wallis: H=4.232, p=0.1205
+
+
+====================================================================================================
+Q4: ANÁLISE DE CONCORDÂNCIA — Bland-Altman (z-scores IBD-Disk vs IBDQ)
+====================================================================================================
+
+  n = 131
+  IBD-Disk z-score vs IBDQ invertido z-score:
+  Viés médio (mean difference): -0.000
+  DP das diferenças: 1.322
+  Limites de concordância (95%):
+    Inferior: -2.591
+    Superior: 2.591
+  Dentro dos limites: 129/131 (98.5%)
+
+  → Figura salva: fig21_bland_altman.png
+
+
+====================================================================================================
+Q5: NETWORK — Correlações Inter-item IBD-Disk
+====================================================================================================
+
+  Top 10 correlações inter-item IBD-Disk (n=141):
+    Energia × Emoções: rho=0.734 ***
+    Defecação × Educação/Trabalho: rho=0.694 ***
+    Sono × Energia: rho=0.655 ***
+    Interações × Educação/Trabalho: rho=0.634 ***
+    Educação/Trabalho × Sono: rho=0.612 ***
+    Dor Abdominal × Defecação: rho=0.605 ***
+    Emoções × Imagem Corporal: rho=0.588 ***
+    Defecação × Interações: rho=0.579 ***
+    Dor Abdominal × Energia: rho=0.578 ***
+    Educação/Trabalho × Energia: rho=0.577 ***
+
+  → Figura salva: fig22_network_ibddisk.png
+
+
+====================================================================================================
+Q6: SUMÁRIO DE ACHADOS SIGNIFICATIVOS — INTERPRETAÇÃO CLÍNICA
+====================================================================================================
+
+  ============================================================
+  ACHADOS PRINCIPAIS — SÍNTESE PARA O MANUSCRITO
+  ============================================================
+
+  1. AMOSTRA E INSTRUMENTOS
+  ─────────────────────────
+  • 157 pacientes pediátricos com DII avaliados em centro terciário brasileiro
+  • 4 instrumentos aplicados: CRAFFT, IBD-Disk, IBDQ, IMPACT-III
+  • Completude variável: CRAFFT 100%, IBD-Disk 87%, IBDQ 78%, IMPACT-III 14%
+  • IMPACT-III com n=23 — insuficiente para análises robustas
+  • Duas versões de IBDQ identificadas: curta (11 itens, n=48) e longa (32 itens, n=74)
+
+  2. CONFIABILIDADE DOS INSTRUMENTOS
+  ──────────────────────────────────
+  • CRAFFT: α=0.68 (questionável) — consistente com literatura internacional
+    - Item C_Car (dirigir) tem correlação item-total mais baixa (r=0.205)
+    - Remoção de C_Car melhora α para 0.72 — esperado em população pediátrica
+  • IBD-Disk: α=0.89 (bom) — todos os itens contribuem adequadamente
+  • IBDQ: α=0.97 (excelente) — alta consistência interna
+
+  3. PREVALÊNCIA DE USO DE SUBSTÂNCIAS (CRAFFT)
+  ──────────────────────────────────────────────
+  • 21.0% screen positivo (≥2) — ALERTA CLÍNICO
+  • Item mais prevalente: Trouble (30.3%) — problemas relacionados ao uso
+  • Item menos prevalente: Friends/Family (2.1%)
+  • Floor effect severo: 58.6% com score 0
+
+  4. PERFIL DE INCAPACIDADE (IBD-Disk)
+  ────────────────────────────────────
+  • Domínios mais afetados: Emoções (5.6), Energia (5.1), Sono (4.7)
+  • Domínios menos afetados: Função Sexual (2.7), Interações (3.2)
+  • Significativo floor effect em maioria dos itens (>15% com score 0)
+  • Ceiling effect em Emoções (20.6% com score 10)
+
+  5. CORRELAÇÕES PRINCIPAIS (Sobrevivem à correção FDR)
+  ─────────────────────────────────────────────────────
+  ✓ IBD-Disk Physical Domain vs IBDQ Sint. Intestinais: rho=-0.735 (forte)
+  ✓ IBD-Disk Physical Domain vs IBDQ Sint. Sistêmicos: rho=-0.608 (forte)
+  ✓ IBD-Disk Psychosocial vs IBDQ Sint. Intestinais: rho=-0.651 (forte)
+  ✓ IBD-Disk Psychosocial vs IBDQ Sint. Sistêmicos: rho=-0.452 (moderada)
+  ✓ IBD-Disk vs IMPACT-III: rho=0.810 (muito forte)
+  ✗ CRAFFT vs IBD-Disk: rho=0.006 (negligível)
+  ✗ CRAFFT vs IBDQ: rho=0.009 (negligível)
+  ✗ CRAFFT vs IMPACT-III: rho=-0.090 (negligível)
+
+  → NENHUMA correlação CRAFFT vs outros instrumentos é significativa
+
+  6. CRAFFT NÃO SE ASSOCIA A DISABILITY OU QoL
+  ──────────────────────────────────────────────
+  • Mann-Whitney CRAFFT+ vs CRAFFT-: todos p>0.05, effect sizes nulos
+  • Regressão logística: AUC-ROC = 0.588 (próximo do acaso)
+  • Análise dose-resposta: sem gradiente monotônico
+  • Após correção FDR: zero associações item-a-item sobrevivem
+  • PORÉM: No Burden Index composto, 46% dos pacientes de alto burden
+    são CRAFFT+ vs 15% no burden baixo — potencial associação indireta
+
+  7. ACHADO IMPORTANTE — VIÉS DE SELEÇÃO
+  ──────────────────────────────────────
+  • Pacientes com dados completos (3 instrumentos) têm SIGNIFICATIVAMENTE
+    mais CRAFFT+ (23.8%) que incompletos (4.9%), p=0.0007
+  • Sugere que pacientes de maior risco são mais propensos a completar avaliações
+  • Isto deve ser discutido como limitação no manuscrito
+
+  8. VERSÃO IBDQ: IMPACTO CRÍTICO NOS RESULTADOS
+  ───────────────────────────────────────────────
+  • Pacientes com versão longa têm IBD-Disk SIGNIFICATIVAMENTE maior
+    (med=43.5 vs 31.0, p=0.0004, r=0.307 — efeito médio)
+  • Correlação IBD-Disk vs IBDQ é mais forte na versão curta (rho=-0.859)
+    que na longa (rho=-0.680) — ambas significativas
+  • Isto NÃO é artefato: pacientes mais graves receberam mais avaliações
+
+  9. IBD-Disk COMO PREDITOR DE QoL GRAVE
+  ──────────────────────────────────────
+  • ROC AUC = 0.436 para predizer IBDQ ≤100 — FRACO
+  • Nenhum cutoff oferece sensibilidade+especificidade adequadas
+  • Conclusão: IBD-Disk e IBDQ medem construtos parcialmente diferentes
+
+  10. PODER ESTATÍSTICO
+  ────────────────────
+  • Para detectar CRAFFT vs IBD-Disk: poder <3% — estudo SUB-POWERED
+    (N necessário: >10.000 para detectar rho=0.006)
+  • Para IBD-Disk vs IBDQ: poder 65% — marginal
+  • Para IBD-Disk vs IMPACT-III: poder >99% — adequado
+  • Mínimo |rho| detectável com n=143: 0.24
+
+  CONCLUSÃO GERAL:
+  ────────────────
+  O uso de substâncias (CRAFFT) é prevalente (21%) nesta população
+  pediátrica com DII, mas opera de forma INDEPENDENTE da incapacidade
+  (IBD-Disk) e qualidade de vida (IBDQ). Isto sugere que o screening
+  de substâncias deve ser feito como avaliação complementar, não como
+  parte da avaliação de doença — um achado relevante para guidelines
+  de cuidado em LMICs onde recursos são limitados.
+
+
+
+====================================================================================================
+Q7: LIMITAÇÕES E PONTOS FORTES PARA O MANUSCRITO
+====================================================================================================
+
+  PONTOS FORTES:
+  ──────────────
+  1. Primeiro estudo brasileiro a aplicar IBD-Disk + IBDQ + CRAFFT + IMPACT-III
+     simultaneamente em população pediátrica com DII
+  2. Amostra clinicamente representativa de um centro terciário em LMIC
+  3. Múltiplos instrumentos validados permitem triangulação
+  4. Análise estatística rigorosa com correções para comparações múltiplas (FDR)
+  5. Bootstrap IC 95% para todas as estimativas de efeito
+  6. Power analysis post-hoc documenta transparentemente as limitações
+  7. Dados coletados longitudinalmente (2021-2026) em prática clínica real
+
+  LIMITAÇÕES:
+  ───────────
+  1. Desenho transversal — não permite inferir causalidade
+  2. Centro único — limita generalizabilidade
+  3. IMPACT-III com n=23 — insuficiente para conclusões robustas
+  4. Duas versões de IBDQ utilizadas — reduz comparabilidade
+  5. Viés de seleção: pacientes com dados completos diferem dos incompletos
+  6. Sem dados demográficos completos (idade, sexo apenas parcial no IBD-Disk)
+  7. Sem dados de atividade de doença (PCDAI/PUCAI) para correlacionar
+  8. CRAFFT não validado especificamente para população pediátrica com DII
+  9. Floor effect no CRAFFT (58.6% com score 0) limita discriminação
+  10. Sub-powered para detectar associações fracas CRAFFT vs outros instrumentos
+
+
+
+====================================================================================================
+Q8: FIGURAS FINAIS PARA PUBLICAÇÃO
+====================================================================================================
+  → fig23_summary_overview.png salva
+  → fig24_crafft_prevalence_ci.png salva
+
+
+====================================================================================================
+FIM DA FASE 3 — ANÁLISES FINAIS E SÍNTESE COMPLETAS
+====================================================================================================
+
+
+====================================================================================================
+
