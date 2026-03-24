@@ -1,3 +1,33 @@
-.DS_Store
+# ============================================
+# SENSITIVE DATA — NEVER COMMIT
+# Patient data contains names, RGHC, diagnoses
+# ============================================
+*.xlsx
+*.xls
+*.csv
+data_clean/
+xlsx/
+csv/
+PREENCHER_DRA_JANE*
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Old analysis files (replaced by calculos/)
+analise_*.py
+resultados/
