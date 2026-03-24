@@ -20,6 +20,9 @@ venv/
 dist/
 build/
 
+# Project context (internal use only)
+CLAUDE.md
+
 # OS
 .DS_Store
 Thumbs.db
